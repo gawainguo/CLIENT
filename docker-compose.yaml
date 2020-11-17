@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  client:
+    image: guojiaqi1027/client:1.0.0
+    ports:
+      - 5004:8080
